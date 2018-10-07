@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>It's like Shazam for your face</title>
+</head>
+<body>
+    <h1>Here's some tunes</h1>
+    <div>
+        {%- if Happy -%}
+            <p>Good songs for good vibes</p>
+            <iframe src="https://open.spotify.com/embed/user/jon_cobi/playlist/3Tfd7T61sm9OgKHDaSfrO1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        {%- elif Mad -%}
+            <p>Here's some power songs to match your anger</p>
+            <iframe src="https://open.spotify.com/embed/user/jon_cobi/playlist/7rgvg9yZ1V9wHAoGLPkyeg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        {%- elif Sad -%}
+            <p>You might be a little sad, here are some sad songs</p>
+            <iframe src="https://open.spotify.com/embed/user/jon_cobi/playlist/3nDcIEITaxBC5cPt76nihx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        {%- endif -%}
+    </div>
+</body>
+</html>
