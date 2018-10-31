@@ -4,7 +4,7 @@ from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as ClImage
 import os
 
-cApp = ClarifaiApp(api_key='3b338a62ceb14a79a33e8aeb668de687')
+cApp = ClarifaiApp(api_key='API_KEY_HERE')
 app = Flask(__name__, template_folder='template')
 root = os.path.dirname(os.path.abspath(__file__))
 
